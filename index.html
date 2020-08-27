@@ -1,0 +1,219 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock title %}
+
+{% block body %}
+{% comment %} corousel starts here {% endcomment %}
+<div class="container-fluid mt-4">
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" style="border-radius: 20px;">
+    <div class="carousel-item active">
+      <img src="/static/img/1.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block" style="background-color: black; border-radius: 20px;">
+        <h5>Bhawesh Nature Farm</h5>
+        <p>This is the world first nature farm ever created in the mid of Eastern Development Region.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/2.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block" style="background-color: black; border-radius: 20px;">
+        <h5>Bhawesh Nature Ground</h5>
+        <p>World first nature ground, childrens third home after home and school.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/3.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block" style="background-color: black; border-radius: 20px;">
+        <h5>Bhawesh School</h5>
+        <p>This school is for people who love to surround themself by the shadow of beauty of nature.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+{% comment %} corousel ends here {% endcomment %}
+<hr width=50%>
+<h2 style="text-align:center;"> Recent Blogs </h2>
+<hr width=90%>
+{% comment %} blog post start{% endcomment %}
+{% comment %} 1st blog post {% endcomment %}
+<div class="mx-3 my-4 border-primary" style="border: 2px dotted;">
+<div class="d-flex p-2 bd-highlight flex-wrap">
+<div class="col-md-6 mt-4">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Bhawesh Nature</strong>
+          <h3 class="mb-0">How to find peace in nature?</h3>
+          <div class="mb-1 text-muted">26 Aug, Wed</div>
+          <p class="card-text mb-auto">First of all, Learn to control your mind. You might want to take class for this.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text  x="22%" y="50%" fill="#eceeef" dy=".3em">Bhawesh Nature</text></svg>
+        </div>
+      </div>
+    </div>
+    {% comment %} end of 1st blog post {% endcomment %}
+
+    {% comment %} 2nd blog post {% endcomment %}
+<div class="col-md-6 mt-4">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-danger">Bhawesh Garden</strong>
+          <h3 class="mb-0">What is so special about bhawesh garden?</h3>
+          <div class="mb-1 text-muted">26 Aug, Wed</div>
+          <p class="card-text mb-auto">This is the artificial intelligence based natural garden specially designed for children, youth, and lady.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text  x="22%" y="50%" fill="#eceeef" dy=".3em">Bhawesh Garden</text></svg>
+        </div>
+      </div>
+    </div>
+   
+    {% comment %} end of 2nd blog post {% endcomment %}
+
+
+    {% comment %} 3rd blog post starts {% endcomment %}
+<div class="col-md-6 mt-4">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-dark">Bhawesh School</strong>
+          <h3 class="mb-0">How to join bhawesh membership?</h3>
+          <div class="mb-1 text-muted">26 Aug, Wed</div>
+          <p class="card-text mb-auto">It is very easy to join bhawesh membership as you don't have to spend fortune out of your credit card.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text  x="22%" y="50%" fill="#eceeef" dy=".3em">Bhawesh School</text></svg>
+        </div>
+      </div>
+    </div>
+     
+     
+
+    {% comment %} end of 3rd blog post {% endcomment %}
+
+{% comment %} 4th blog post starts here {% endcomment %}
+
+<div class="col-md-6 mt-4">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-info">Bhawesh Post</strong>
+          <h3 class="mb-0">How to Learn Full Stack Web Development?</h3>
+          <div class="mb-1 text-muted">26 Aug, Wed</div>
+          <p class="card-text mb-auto">Don't worry my brother, your bro bhawesh will teach you the whole full stack web development</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text  x="22%" y="50%" fill="#eceeef" dy=".3em">Bhawesh Garden</text></svg>
+        </div>
+      </div>
+    </div>
+</div>
+</div>  
+     
+     
+
+{% comment %} 4th blog post ends here {% endcomment %}
+
+{% comment %} blog post end {% endcomment %}
+
+{% comment %} pagination starts  {% endcomment %}
+<div class="mx-3 my-4">
+<nav aria-label="...">
+  <ul class="pagination pagination-lg">
+    <li class="page-item active" aria-current="page">
+      <span class="page-link">
+        1
+        <span class="sr-only">(current)</span>
+      </span>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">4</a></li>
+  </ul>
+</nav>
+</div>
+
+{% comment %} paginations ends here {% endcomment %}
+
+{% comment %} jumbotron starts here {% endcomment %}
+<div class="jumbotron jumbotron-fluid mx-3 bg-danger">
+  <div class="container">
+    <h1 class="display-3">Why Us?</h1>
+    <p class="lead">We are the most qualified and experienced team of programmer that can develop you a website like this in a very short amout of time.</p>
+  </div>
+</div>
+{% comment %} jumbotron ends here {% endcomment %}
+
+{% comment %} pricing starts here {% endcomment %}
+<hr width=50%>
+<h2 style="text-align:center;">
+Select Bhawesh Package
+</h2>
+<hr width=50%>
+  <div class="card-deck mb-3 text-center mx-4">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Garden Package</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$50 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Ten 100ft. tall plants around you</li>
+          <li>Free wifi with 20mbps speed</li>
+          <li>7 hours support per day</li>
+          <li>Clean Swimming Pool</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-danger">Sign up now</button>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">School Package</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$150 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Silent environment</li>
+          <li>Quality Learning</li>
+          <li>Decent Food</li>
+          <li>Medical Support</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Jumbo Package</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$290 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>You own the land</li>
+          <li>Free Food</li>
+          <li>Any kind of help</li>
+          <li>Jurassic Park Access</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-warning">Contact us</button>
+      </div>
+    </div>
+  </div>
+{% comment %} pricing ends here {% endcomment %}
+{% endblock body %}
